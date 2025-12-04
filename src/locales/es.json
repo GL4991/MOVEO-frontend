@@ -40,94 +40,43 @@
     "howItWorks": {
       "title": "¿Cómo funciona?",
       "step1": {
-        "title": "Busca",
-        "description": "Encuentra el vehículo perfecto cerca de ti"
+        "title": "Busca tu vehículo",
+        "description": "Explora nuestra amplia selección de vehículos"
       },
       "step2": {
-        "title": "Reserva",
-        "description": "Solicita el alquiler con contrato digital"
+        "title": "Reserva fácilmente",
+        "description": "Selecciona fechas y confirma tu reserva"
       },
       "step3": {
-        "title": "Disfruta",
-        "description": "Recoge el auto y disfruta tu viaje"
+        "title": "Disfruta tu viaje",
+        "description": "Recoge el vehículo y comienza tu aventura"
       }
-    }
-  },
-  "adventures": {
-    "title": "Lista de Aventuras",
-    "new": "Nueva Aventura",
-    "id": "ID",
-    "name": "Nombre",
-    "actions": "Acciones"
-  },
-  "errors": {
-    "ocurred": "Ocurrieron errores"
-  },
-  "sidebar": {
-    "owner": {
-      "dashboard": "Panel",
-      "vehicles": "Mis Vehículos",
-      "addVehicle": "Agregar Vehículo",
-      "requests": "Solicitudes",
-      "earnings": "Ganancias",
-      "profile": "Perfil"
     },
-    "renter": {
-      "dashboard": "Panel",
-      "browse": "Explorar",
-      "myRentals": "Mis Alquileres",
-      "myPayments": "Mis Pagos",
-      "favorites": "Favoritos",
-      "profile": "Perfil"
-    }
-  },
-  "dashboard": {
-    "renter": {
-      "welcome": "Bienvenido, {name}",
-      "summary": "Aquí está el resumen de tu actividad",
-      "activity": "Actividad reciente",
-      "noActivity": "No hay actividad reciente",
-      "findTrip": "Encuentra tu próximo viaje",
-      "activeRentals": "Alquileres Activos",
-      "completedTrips": "Viajes Completados",
-      "totalSpent": "Total Gastado",
-      "favorites": "Favoritos",
-      "upcomingTrips": "Próximos Viajes",
-      "status": {
-        "active": "Activo",
-        "confirmed": "Confirmado",
-        "pending": "Pendiente"
-      },
-      "total": "Total",
-      "viewDetails": "Ver Detalles",
-      "noUpcomingTrips": "No tienes viajes programados",
-      "exploreVehicles": "Explorar Vehículos",
-      "myFavorites": "Mis Favoritos",
-      "noFavorites": "Aún no tienes vehículos favoritos",
-      "viewCatalog": "Ver Catálogo",
-      "active": "Activo"
+    "cta": {
+      "title": "¿Listo para comenzar?",
+      "description": "Únete a miles de usuarios que confían en MOVEO para sus necesidades de movilidad.",
+      "button": "Explorar Vehículos Ahora"
     }
   },
   "iam": {
     "login": {
-      "title": "Bienvenido de Nuevo",
-      "subtitle": "Inicia sesión en tu cuenta de MOVEO",
+      "title": "Iniciar Sesión",
+      "subtitle": "Ingresa a tu cuenta MOVEO",
       "email": "Correo Electrónico",
-      "emailPlaceholder": "Ingresa tu correo electrónico",
+      "emailPlaceholder": "tu@email.com",
       "password": "Contraseña",
       "passwordPlaceholder": "Ingresa tu contraseña",
-      "rememberMe": "Recuérdame",
       "forgotPassword": "¿Olvidaste tu contraseña?",
       "submit": "Iniciar Sesión",
       "submitting": "Iniciando sesión...",
-      "noAccount": "¿No tienes una cuenta?",
+      "noAccount": "¿No tienes cuenta?",
       "createAccount": "Crear nueva cuenta",
-      "demoUsers": "Usuarios Demo",
+      "demoUsers": "Usuarios de Demostración",
       "testAs": "Probar como",
       "errors": {
-        "emailRequired": "El correo electrónico es obligatorio",
-        "emailInvalid": "Por favor ingresa un correo electrónico válido",
-        "passwordRequired": "La contraseña es obligatoria",
+        "emailRequired": "El correo es requerido",
+        "emailInvalid": "Por favor ingresa un correo válido",
+        "passwordRequired": "La contraseña es requerida",
         "passwordLength": "La contraseña debe tener al menos 6 caracteres",
         "invalidCredentials": "Correo o contraseña incorrectos"
       }
@@ -137,7 +86,7 @@
       "subtitle": "Únete a MOVEO y comienza tu viaje",
       "selectRole": {
         "title": "Selecciona tu Rol",
-        "subtitle": "¿Cómo te gustaría usar MOVEO?",
+        "subtitle": "¿Cómo deseas usar MOVEO?",
         "renter": {
           "title": "Soy Cliente",
           "description": "Busca y alquila vehículos de manera fácil y segura. Encuentra el auto perfecto para tu próxima aventura.",
@@ -149,15 +98,15 @@
         },
         "owner": {
           "title": "Soy Propietario",
-          "description": "Publica tus vehículos y genera ingresos extra. Gestiona tus autos de forma simple y eficiente.",
-          "feature1": "Publicación ilimitada de vehículos",
+          "description": "Publica tus vehículos y genera ingresos extra. Administra tus autos de forma simple y eficiente.",
+          "feature1": "Publicaciones ilimitadas",
           "feature2": "Panel de control completo",
           "feature3": "Gestión de reservas",
           "feature4": "Ingresos garantizados",
           "button": "Registrarme como Propietario"
         },
         "footer": "¿Ya tienes una cuenta?",
-        "login": "Inicia sesión"
+        "login": "Iniciar sesión"
       },
       "common": {
         "firstName": "Nombre",
@@ -165,7 +114,7 @@
         "lastName": "Apellido",
         "lastNamePlaceholder": "Ingresa tu apellido",
         "email": "Correo Electrónico",
-        "emailPlaceholder": "Ingresa tu correo electrónico",
+        "emailPlaceholder": "Ingresa tu correo",
         "phone": "Teléfono",
         "phonePlaceholder": "+51 999 999 999",
         "dni": "DNI",
@@ -179,55 +128,25 @@
         "submit": "Crear Cuenta",
         "submitting": "Creando cuenta...",
         "backToLogin": "Volver al inicio de sesión",
-        "hasAccount": "¿Ya tienes una cuenta?"
-      },
-      "renter": {
-        "title": "Registro de Cliente",
-        "subtitle": "Completa tu información para alquilar vehículos",
-        "licenseNumber": "Licencia de Conducir",
-        "licenseNumberPlaceholder": "Número de licencia"
-      },
-      "owner": {
-        "title": "Registro de Propietario",
-        "subtitle": "Completa tu información para alquilar tus vehículos",
-        "licenseNumber": "Licencia de Conducir",
-        "licenseNumberPlaceholder": "Número de licencia",
-        "bankInfo": "Información Bancaria",
-        "bankName": "Banco",
-        "bankNamePlaceholder": "Selecciona tu banco",
-        "accountType": "Tipo de Cuenta",
-        "accountTypePlaceholder": "Selecciona el tipo",
-        "accountNumber": "Número de Cuenta",
-        "accountNumberPlaceholder": "Ingresa el número de cuenta",
-        "accountTypes": {
-          "savings": "Ahorros",
-          "checking": "Corriente"
+        "hasAccount": "¿Ya tienes una cuenta?",
+        "errors": {
+          "firstNameRequired": "El nombre es requerido",
+          "lastNameRequired": "El apellido es requerido",
+          "emailRequired": "El correo es requerido",
+          "emailInvalid": "Por favor ingresa un correo válido",
+          "phoneRequired": "El teléfono es requerido",
+          "phoneInvalid": "Por favor ingresa un teléfono válido",
+          "dniRequired": "El DNI es requerido",
+          "dniInvalid": "El DNI debe tener 8 dígitos",
+          "passwordRequired": "La contraseña es requerida",
+          "passwordLength": "La contraseña debe tener al menos 6 caracteres",
+          "confirmPasswordRequired": "Debes confirmar la contraseña",
+          "passwordMismatch": "Las contraseñas no coinciden",
+          "termsRequired": "Debes aceptar los términos y condiciones"
         }
       },
-      "errors": {
-        "firstNameRequired": "El nombre es obligatorio",
-        "firstNameLength": "El nombre debe tener al menos 2 caracteres",
-        "lastNameRequired": "El apellido es obligatorio",
-        "lastNameLength": "El apellido debe tener al menos 2 caracteres",
-        "emailRequired": "El correo electrónico es obligatorio",
-        "emailInvalid": "Por favor ingresa un correo electrónico válido",
-        "phoneRequired": "El teléfono es obligatorio",
-        "phoneInvalid": "Por favor ingresa un número de teléfono válido",
-        "dniRequired": "El DNI es obligatorio",
-        "dniInvalid": "El DNI debe tener 8 dígitos",
-        "licenseRequired": "La licencia de conducir es obligatoria",
-        "passwordRequired": "La contraseña es obligatoria",
-        "passwordLength": "La contraseña debe tener al menos 6 caracteres",
-        "confirmPasswordRequired": "Por favor confirma tu contraseña",
-        "passwordMismatch": "Las contraseñas no coinciden",
-        "termsRequired": "Debes aceptar los términos y condiciones",
-        "bankNameRequired": "El nombre del banco es obligatorio",
-        "accountTypeRequired": "El tipo de cuenta es obligatorio",
-        "accountNumberRequired": "El número de cuenta es obligatorio",
-        "accountNumberInvalid": "Por favor ingresa un número de cuenta válido"
-      },
       "success": {
-        "title": "¡Cuenta Creada!",
+        "title": "¡Cuenta creada exitosamente!",
         "message": "Tu cuenta ha sido creada exitosamente",
         "redirecting": "Redirigiendo al inicio de sesión..."
       }
@@ -250,177 +169,172 @@
       "switchAccount": "Cambiar Cuenta",
       "switchTo": "Cambiar a",
       "logout": "Cerrar Sesión"
-    }
-  },
-  "payment": {
-    "management": {
-      "summary": {
-        "totalAmount": "Monto total",
-        "concept": "Concepto"
-      },
-      "methods": {
-        "title": "Selecciona tu método de pago",
-        "card": "Tarjeta",
-        "yape": "Yape",
-        "cash": "Efectivo"
-      },
-      "card": {
-        "cardNumber": "Número de Tarjeta",
-        "cardNumberPlaceholder": "1234 5678 9012 3456",
-        "cardHolder": "Nombre del Titular",
-        "cardHolderPlaceholder": "JUAN PÉREZ",
-        "cardHolderDefault": "NOMBRE DEL TITULAR",
-        "expiry": "Vencimiento",
-        "expiryPlaceholder": "MM/AA",
-        "expiryDefault": "MM/AA",
-        "ccv": "CCV",
-        "ccvPlaceholder": "123"
-      },
-      "yape": {
-        "instructions": "Escanea el código QR con tu app de Yape y luego sube el comprobante",
-        "qrCode": "Código QR de Yape",
-        "receipt": "Comprobante de Pago",
-        "selectFile": "Seleccionar archivo"
-      },
-      "cash": {
-        "title": "Pago en Efectivo",
-        "description": "Podrás realizar el pago en efectivo directamente con el propietario al recoger el vehículo.",
-        "note": "El propietario confirmará la recepción del pago."
-      },
-      "actions": {
-        "cancel": "Cancelar",
-        "confirm": "Confirmar Pago"
-      },
-      "alerts": {
-        "selectMethod": "Por favor selecciona un método de pago",
-        "invalidCard": "Por favor ingresa un número de tarjeta válido",
-        "invalidHolder": "Por favor ingresa el nombre del titular",
-        "invalidExpiry": "Por favor ingresa una fecha válida (MM/AA)",
-        "invalidCCV": "Por favor ingresa un CCV válido",
-        "uploadReceipt": "Por favor sube el comprobante de Yape"
-      }
     },
-    "history": {
-      "title": "Historial de Pagos",
-      "subtitle": "Gestiona y visualiza tus transacciones",
-      "stats": {
-        "total": "Total",
-        "transactions": "Transacciones",
-        "completed": "Completados",
-        "pending": "Pendientes"
+    "preferences": {
+      "title": "Preferencias de Usuario",
+      "general": {
+        "title": "Preferencias Generales",
+        "language": "Idioma preferido",
+        "spanish": "Español",
+        "english": "English"
       },
-      "filters": {
-        "searchPlaceholder": "Buscar por ID, método o monto...",
-        "status": "Estado",
-        "method": "Método",
-        "all": "Todos"
+      "notifications": {
+        "title": "Notificaciones",
+        "email": "Notificaciones por email",
+        "emailDesc": "Recibe actualizaciones en tu correo",
+        "push": "Notificaciones push",
+        "pushDesc": "Recibe notificaciones en tu dispositivo",
+        "sms": "Notificaciones por SMS",
+        "smsDesc": "Recibe alertas importantes por mensaje de texto"
       },
-      "status": {
-        "completed": "completado",
-        "pending": "pendiente",
-        "cancelled": "cancelado",
-        "refunded": "reembolsado",
-        "held": "retenido"
+      "renter": {
+        "title": "Preferencias como Cliente",
+        "location": "Ubicación Preferida",
+        "priceRange": "Rango de Precio (por día)",
+        "from": "Desde",
+        "to": "Hasta"
       },
-      "methods": {
-        "card": "Tarjeta",
-        "yape": "Yape",
-        "cash": "Efectivo"
+      "owner": {
+        "title": "Preferencias como Propietario",
+        "instantBooking": "Reserva instantánea",
+        "instantBookingDesc": "Permite que inquilinos reserven sin aprobación previa",
+        "minDays": "Días mínimos de alquiler"
       },
-      "empty": {
-        "title": "No se encontraron pagos",
-        "message": "No hay transacciones que coincidan con los filtros seleccionados."
-      },
-      "details": {
-        "amount": "Monto",
-        "transactionId": "ID Transacción",
-        "date": "Fecha",
-        "description": "Descripción"
-      }
+      "saved": "Preferencias guardadas correctamente"
     }
   },
   "rental": {
+    "menu": {
+      "browse": "Explorar",
+      "myRentals": "Mis Alquileres",
+      "favorites": "Favoritos",
+      "myVehicles": "Mis Vehículos",
+      "addVehicle": "Publicar Vehículo",
+      "rentalRequests": "Solicitudes",
+      "earnings": "Ganancias"
+    },
     "browse": {
-      "title": "Explora Vehículos",
-      "vehiclesFound": "vehículos encontrados",
-      "sortBy": "Ordenar por",
-      "sortOptions": {
-        "default": "Destacados",
+      "title": "Explora Vehículos Disponibles",
+      "subtitle": "Encuentra el vehículo perfecto para tu próximo viaje",
+      "filters": {
+        "search": "Buscar por marca, modelo o ubicación...",
+        "type": "Tipo de Vehículo",
+        "transmission": "Transmisión",
+        "seats": "Asientos",
+        "priceRange": "Rango de Precio (por día)",
+        "reset": "Limpiar Filtros"
+      },
+      "types": {
+        "all": "Todos los Tipos",
+        "sedan": "Sedán",
+        "suv": "SUV",
+        "hatchback": "Hatchback",
+        "truck": "Camioneta",
+        "van": "Van",
+        "convertible": "Convertible"
+      },
+      "transmissions": {
+        "all": "Todas",
+        "manual": "Manual",
+        "automatic": "Automática"
+      },
+      "sorting": {
+        "label": "Ordenar por",
         "priceAsc": "Precio: Menor a Mayor",
         "priceDesc": "Precio: Mayor a Menor",
-        "newest": "Más recientes"
+        "newest": "Más Recientes",
+        "popular": "Más Populares"
       },
-      "filters": {
-        "title": "Filtros",
-        "priceRange": "Rango de Precio",
-        "vehicleType": "Tipo de Vehículo",
-        "transmission": "Transmisión",
-        "fuelType": "Tipo de Combustible",
-        "seats": "Asientos",
-        "clearFilters": "Limpiar Filtros"
-      },
-      "vehicleCard": {
-        "perDay": "por día",
-        "rentNow": "Alquilar Ahora",
-        "viewDetails": "Ver Detalles"
+      "results": "{count} vehículos encontrados",
+      "noResults": "No se encontraron vehículos con esos filtros",
+      "loading": "Cargando vehículos...",
+      "perDay": "por día",
+      "viewDetails": "Ver Detalles"
+    },
+    "myRentals": {
+      "title": "Mis Alquileres",
+      "subtitle": "Gestiona tus reservas y viajes",
+      "tabs": {
+        "all": "Todos",
+        "upcoming": "Próximos",
+        "active": "Activos",
+        "completed": "Completados",
+        "cancelled": "Cancelados"
       },
       "empty": {
-        "title": "No se encontraron vehículos",
-        "message": "Intenta ajustar tus filtros"
+        "title": "No tienes alquileres",
+        "message": "Cuando alquiles un vehículo aparecerá aquí",
+        "cta": "Explorar Vehículos"
+      },
+      "card": {
+        "startDate": "Inicio",
+        "endDate": "Fin",
+        "total": "Total",
+        "status": "Estado",
+        "viewDetails": "Ver Detalles",
+        "cancelRental": "Cancelar",
+        "rateVehicle": "Calificar Vehículo"
+      },
+      "status": {
+        "pending": "Pendiente",
+        "confirmed": "Confirmado",
+        "active": "Activo",
+        "completed": "Completado",
+        "cancelled": "Cancelado",
+        "rejected": "Rechazado"
       }
     },
     "myVehicles": {
       "title": "Mis Vehículos",
-      "subtitle": "Gestiona tu flota de vehículos",
-      "addVehicle": "Agregar Vehículo",
-      "addFirstVehicle": "Agregar mi primer vehículo",
-      "loading": "Cargando vehículos...",
+      "subtitle": "Administra tu flota de vehículos",
+      "addNew": "Publicar Nuevo Vehículo",
       "empty": {
         "title": "No tienes vehículos publicados",
-        "message": "Agrega tu primer vehículo para empezar a alquilar"
+        "message": "Comienza a generar ingresos publicando tu primer vehículo",
+        "cta": "Publicar Mi Primer Vehículo"
       },
-      "vehicleCard": {
+      "card": {
         "edit": "Editar",
         "delete": "Eliminar",
-        "available": "Disponible",
-        "unavailable": "No disponible"
+        "viewRequests": "Ver Solicitudes",
+        "status": "Estado",
+        "dailyPrice": "Precio por día",
+        "totalEarnings": "Ganancias totales"
+      },
+      "deleteConfirm": {
+        "title": "¿Eliminar vehículo?",
+        "message": "Esta acción no se puede deshacer",
+        "cancel": "Cancelar",
+        "confirm": "Sí, eliminar"
       }
     },
     "addVehicle": {
-      "title": "Agregar Vehículo",
-      "subtitle": "Publica tu vehículo y comienza a generar ingresos",
-      "sections": {
-        "basicInfo": "Información Básica",
-        "basicInfoDesc": "Datos generales del vehículo",
-        "specifications": "Especificaciones Técnicas",
-        "specificationsDesc": "Detalles importantes del vehículo",
-        "location": "Ubicación y Precio",
-        "locationDesc": "Dónde está y cuánto cuesta",
-        "pricing": "Precio y Disponibilidad",
-        "description": "Descripción",
-        "photos": "Fotografías"
+      "title": "Publicar Vehículo",
+      "subtitle": "Completa la información de tu vehículo",
+      "steps": {
+        "basic": "Información Básica",
+        "details": "Detalles",
+        "pricing": "Precios",
+        "photos": "Fotos"
       },
-      "fields": {
+      "form": {
         "brand": "Marca",
-        "brandPlaceholder": "ej., Toyota, Honda",
+        "brandPlaceholder": "Ej: Toyota",
         "model": "Modelo",
-        "modelPlaceholder": "ej., Corolla, Civic",
+        "modelPlaceholder": "Ej: Corolla",
         "year": "Año",
         "yearPlaceholder": "2020",
-        "licensePlate": "Placa",
-        "licensePlatePlaceholder": "ABC-123",
         "color": "Color",
-        "colorPlaceholder": "Selecciona un color",
-        "transmission": "Transmisión",
-        "transmissionPlaceholder": "Selecciona transmisión",
-        "fuelType": "Tipo de Combustible",
-        "fuelTypePlaceholder": "Selecciona combustible",
+        "colorPlaceholder": "Ej: Blanco",
+        "licensePlate": "Placa",
+        "licensePlaceholder": "ABC-123",
         "seats": "Número de Asientos",
-        "seatsPlaceholder": "5",
-        "district": "Distrito",
-        "districtPlaceholder": "Selecciona un distrito",
-        "address": "Dirección",
-        "addressPlaceholder": "Av. Ejemplo 123 (opcional)",
+        "transmission": "Transmisión",
+        "fuelType": "Tipo de Combustible",
+        "mileage": "Kilometraje",
+        "mileagePlaceholder": "50000",
+        "vin": "Número de VIN",
+        "vinPlaceholder": "Ejemplo 123 (opcional)",
         "dailyPrice": "Precio por Día (S/)",
         "dailyPricePlaceholder": "150.00",
         "status": "Estado",
@@ -487,13 +401,36 @@
       "specifications": "Especificaciones",
       "pricePerDay": "Precio por día",
       "rentNow": "Alquilar Ahora",
+      "proceedToRent": "Alquilar / Comenzar Aventura",
       "features": {
-        "transmission": "Transmisión",
-        "fuelType": "Combustible",
-        "seats": "Asientos",
+        "brand": "Marca",
+        "model": "Modelo",
         "year": "Año",
         "color": "Color",
-        "licensePlate": "Placa"
+        "seats": "Asientos",
+        "transmission": "Transmisión",
+        "fuelType": "Combustible",
+        "licensePlate": "Placa",
+        "location": "Ubicación",
+        "features": "Características",
+        "restrictions": "Restricciones",
+        "available": "Disponible",
+        "yes": "Sí",
+        "no": "No",
+        "noRestrictions": "Sin restricciones",
+        "notSpecified": "No especificada",
+        "deposit": "Depósito",
+        "pricePerHour": "Precio/hora"
+      },
+      "reviews": {
+        "title": "Reseñas",
+        "average": "Promedio",
+        "review": "reseña",
+        "reviews": "reseñas",
+        "noReviews": "Este vehículo aún no tiene reseñas",
+        "beFirst": "¡Sé el primero en alquilar y dejar tu opinión!",
+        "loading": "Cargando reseñas...",
+        "noComment": "Sin comentarios adicionales"
       }
     },
     "rentalRequests": {
@@ -527,130 +464,100 @@
       "alerts": {
         "confirmAccept": "¿Aceptar la solicitud de {name}?",
         "confirmReject": "¿Rechazar la solicitud de {name}?",
-        "accepted": "Solicitud aceptada y alquiler {status} exitosamente",
-        "rejected": "Solicitud rechazada",
-        "errorAccept": "Error al aceptar la solicitud",
-        "errorReject": "Error al rechazar la solicitud"
-      },
-      "status": {
-        "confirmed": "confirmado",
-        "active": "activado",
-        "completed": "completado"
+        "acceptSuccess": "Solicitud aceptada",
+        "rejectSuccess": "Solicitud rechazada",
+        "error": "Error al procesar la solicitud"
       }
     },
-    "myRentals": {
-      "title": "Mis Alquileres",
-      "subtitle": "Visualiza y gestiona tu historial de alquileres",
-      "tabs": {
-        "all": "Todos",
-        "pending": "Pendientes",
-        "confirmed": "Confirmados",
-        "active": "Activos",
-        "completed": "Completados",
-        "cancelled": "Cancelados"
+    "rentalFlow": {
+      "steps": {
+        "calendar": "Seleccionar Fechas",
+        "payment": "Método de Pago",
+        "confirmation": "Confirmar"
       },
-      "loading": "Cargando alquileres...",
-      "empty": {
-        "title": "Aún no tienes alquileres",
-        "message": "Explora los vehículos disponibles y realiza tu primera reserva",
-        "searchVehicles": "Buscar Vehículos"
+      "calendar": {
+        "title": "Selecciona las fechas de tu alquiler",
+        "startDate": "Fecha de inicio",
+        "endDate": "Fecha de fin",
+        "selectDates": "Selecciona las fechas",
+        "summary": "Resumen",
+        "days": "días",
+        "day": "día",
+        "pricePerDay": "Precio por día",
+        "subtotal": "Subtotal",
+        "serviceFee": "Tarifa de servicio",
+        "total": "Total",
+        "continue": "Continuar",
+        "selectBothDates": "Selecciona ambas fechas",
+        "back": "Volver"
       },
-      "rentalCard": {
-        "dates": "Fechas de alquiler",
-        "from": "Desde",
-        "to": "Hasta",
-        "totalPrice": "Total",
-        "status": "Estado"
+      "payment": {
+        "title": "Método de pago",
+        "back": "Volver"
+      },
+      "confirmation": {
+        "title": "Confirmar alquiler",
+        "vehicle": "Vehículo",
+        "dates": "Fechas",
+        "payment": "Pago",
+        "method": "Método de pago",
+        "confirm": "Confirmar Alquiler",
+        "confirming": "Confirmando...",
+        "back": "Volver"
+      },
+      "success": {
+        "title": "¡Alquiler confirmado!",
+        "message": "Tu reserva ha sido confirmada exitosamente",
+        "rentalCode": "Código de alquiler",
+        "viewDetails": "Ver Detalles",
+        "close": "Cerrar"
       }
     }
   },
-  "shared": {
-    "sidebar": {
-      "renter": {
-        "dashboard": "Inicio",
-        "explore": "Explorar Vehículos",
-        "myRentals": "Mis Alquileres",
-        "favorites": "Favoritos",
-        "profile": "Perfil"
+  "payment": {
+    "management": {
+      "summary": {
+        "totalAmount": "Monto total",
+        "concept": "Concepto"
       },
-      "owner": {
-        "dashboard": "Inicio",
-        "myVehicles": "Mis Vehículos",
-        "rentalRequests": "Solicitudes de Alquiler",
-        "earnings": "Ganancias",
-        "profile": "Perfil"
+      "methods": {
+        "title": "Selecciona tu método de pago",
+        "card": "Tarjeta",
+        "yape": "Yape",
+        "cash": "Efectivo"
       },
-      "logout": "Cerrar Sesión"
-    },
-    "header": {
-      "notifications": "Notificaciones",
-      "profile": "Perfil",
-      "settings": "Configuración",
-      "renter": {
-        "title": "Encuentra tu próximo viaje"
+      "card": {
+        "cardNumber": "Número de Tarjeta",
+        "cardNumberPlaceholder": "1234 5678 9012 3456",
+        "cardHolder": "Nombre del Titular",
+        "cardHolderPlaceholder": "JUAN PÉREZ",
+        "cardHolderDefault": "NOMBRE DEL TITULAR",
+        "expiry": "Vencimiento",
+        "expiryPlaceholder": "MM/AA",
+        "expiryDefault": "MM/AA",
+        "ccv": "CCV",
+        "ccvPlaceholder": "123"
       },
-      "owner": {
-        "title": "Gestiona tu flota"
-      }
-    },
-    "footer": {
-      "profile": "Perfil",
-      "dashboard": "Inicio",
-      "explore": "Explorar",
-      "favorites": "Favoritos"
-    },
-    "pageNotFound": {
-      "title": "404",
-      "subtitle": "Página No Encontrada",
-      "message": "Lo sentimos, la página que buscas no existe",
-      "backHome": "Volver al Inicio",
-      "viewVehicles": "Ver Vehículos"
-    },
-    "comingSoon": {
-      "title": "Próximamente",
-      "message": "Esta función está en desarrollo",
-      "backHome": "Volver al Inicio"
-    },
-    "dashboard": {
-      "renter": {
-        "welcome": "Bienvenido, {name}",
-        "summary": "Gestiona tus alquileres y descubre nuevos vehículos",
-        "activeRentals": "Alquileres Activos",
-        "completedTrips": "Viajes Completados",
-        "totalSpent": "Total Gastado",
-        "favorites": "Favoritos",
-        "upcomingTrips": "Próximos Viajes",
-        "noUpcomingTrips": "No tienes viajes próximos",
-        "exploreVehicles": "Explorar Vehículos",
-        "myFavorites": "Mis Favoritos",
-        "noFavorites": "Aún no tienes vehículos favoritos",
-        "viewDetails": "Ver Detalles",
-        "total": "Total",
-        "status": {
-          "pending": "Pendiente",
-          "confirmed": "Confirmado",
-          "active": "Activo"
-        }
+      "yape": {
+        "instructions": "Escanea el código QR con tu app de Yape y luego sube el comprobante",
+        "qrCode": "Código QR de Yape",
+        "receipt": "Comprobante de Pago",
+        "selectFile": "Seleccionar archivo"
       },
-      "owner": {
-        "welcome": "Bienvenido, {name}",
-        "summary": "Gestiona tus vehículos y solicitudes",
-        "publishedVehicles": "Vehículos Publicados",
-        "totalEarnings": "Ganancias Totales",
-        "activeRentals": "Alquileres Activos",
-        "pendingRequests": "Solicitudes Pendientes",
-        "pendingRequestsTitle": "Solicitudes Pendientes",
-        "noPendingRequests": "No tienes solicitudes pendientes",
-        "requestsWaiting": "Tienes {count} solicitudes esperando tu respuesta",
-        "reviewRequests": "Revisar Solicitudes",
-        "myVehicles": "Mis Vehículos",
-        "noVehicles": "No tienes vehículos publicados",
-        "addVehicle": "Agregar Vehículo",
-        "viewAll": "Ver Todos",
-        "monthlyEarnings": "Ganancias Mensuales",
-        "bestMonth": "Mejor Mes",
-        "totalEarned": "Total Ganado",
-        "averagePerMonth": "Promedio Mensual"
+      "cash": {
+        "title": "Pago en Efectivo",
+        "description": "Podrás realizar el pago en efectivo directamente con el propietario al recoger el vehículo.",
+        "note": "El propietario confirmará la recepción del pago."
+      },
+      "actions": {
+        "cancel": "Cancelar",
+        "confirm": "Confirmar Pago",
+        "confirming": "Procesando..."
+      },
+      "alerts": {
+        "success": "Pago confirmado exitosamente",
+        "error": "Error al procesar el pago",
+        "cancelled": "Pago cancelado"
       }
     }
   },
@@ -701,75 +608,86 @@
       "loading": "Cargando rutas de aventura...",
       "error": "Error al cargar rutas"
     },
-    "detail": {
-      "overview": "Vista General",
-      "itinerary": "Itinerario",
-      "highlights": "Lo Más Destacado",
-      "vehicles": "Vehículos Recomendados",
-      "bookNow": "Comenzar Aventura",
-      "duration": "Duración",
-      "distance": "Distancia",
-      "difficulty": "Dificultad",
-      "bestSeason": "Mejor Época",
-      "rating": "Calificación",
-      "backToRoutes": "Volver a Rutas",
-      "selectVehicle": "Seleccionar Vehículo",
-      "notFound": "Ruta no encontrada"
+    "myAdventures": {
+      "title": "Mis Aventuras",
+      "subtitle": "Gestiona las aventuras que has creado",
+      "createNew": "Crear Nueva Aventura",
+      "empty": {
+        "title": "No has creado aventuras",
+        "message": "Crea tu primera ruta de aventura para otros usuarios",
+        "cta": "Crear Mi Primera Aventura"
+      },
+      "card": {
+        "edit": "Editar",
+        "delete": "Eliminar",
+        "requests": "Ver Solicitudes",
+        "reviews": "Ver Reseñas",
+        "totalBookings": "Reservas totales",
+        "averageRating": "Calificación promedio",
+        "noRating": "Sin calificaciones aún"
+      },
+      "deleteConfirm": {
+        "title": "¿Eliminar aventura?",
+        "message": "Esta acción no se puede deshacer",
+        "cancel": "Cancelar",
+        "confirm": "Sí, eliminar"
+      },
+      "requests": {
+        "title": "Solicitudes de Aventura",
+        "empty": "No hay solicitudes para esta aventura",
+        "close": "Cerrar"
+      },
+      "reviews": {
+        "title": "Reseñas de la Aventura",
+        "empty": "Aún no hay reseñas para esta aventura",
+        "close": "Cerrar",
+        "noComment": "Sin comentario"
+      }
     }
   },
-  "notification": {
-    "notifications": "Notificaciones",
-    "markAsRead": "Marcar como leída",
-    "markAllAsRead": "Marcar todas como leídas",
-    "delete": "Eliminar",
-    "view": "Ver",
-    "viewAll": "Ver todas",
-    "noNotifications": "No tienes notificaciones",
-    "noNotificationsDesc": "Cuando tengas nuevas notificaciones, aparecerán aquí",
-    "loadError": "Error al cargar notificaciones"
-  },
   "support": {
-    "tickets": "Tickets de Soporte",
-    "createTicket": "Crear Ticket",
-    "ticketType": "Tipo de Ticket",
-    "selectType": "Seleccionar tipo",
-    "vehicle": "Vehículo",
-    "selectVehicle": "Seleccionar vehículo",
-    "rental": "Alquiler",
-    "selectRental": "Seleccionar alquiler",
-    "rentalRequired": "Debe seleccionar el alquiler asociado",
-    "damageResponsible": "Usuario Responsable del Daño",
-    "renterName": "Nombre del Arrendatario",
-    "rentalPeriod": "Período de Alquiler",
-    "rentalId": "ID de Alquiler",
-    "rentalValue": "Valor del Alquiler",
-    "priorityLabel": "Prioridad",
-    "selectPriority": "Seleccionar prioridad",
-    "subject": "Asunto",
-    "subjectPlaceholder": "Describe brevemente el problema",
-    "description": "Descripción",
-    "descriptionPlaceholder": "Proporciona detalles sobre el problema o consulta",
-    "estimatedCost": "Costo Estimado",
-    "estimatedCostPlaceholder": "S/. 0.00",
-    "attachments": "Archivos Adjuntos",
-    "attachmentsHelp": "Puedes subir imágenes (máximo 5MB cada una)",
+    "tickets": {
+      "title": "Tickets de Soporte",
+      "subtitle": "Gestiona tus solicitudes de ayuda",
+      "createNew": "Crear Nuevo Ticket",
+      "empty": {
+        "title": "No tienes tickets",
+        "message": "Cuando necesites ayuda, crea un ticket aquí"
+      },
+      "stats": {
+        "total": "Total",
+        "open": "Abiertos",
+        "closed": "Cerrados",
+        "damage": "Daños"
+      },
+      "filters": {
+        "all": "Todos",
+        "status": "Estado",
+        "type": "Tipo"
+      }
+    },
+    "ticketForm": {
+      "title": "Crear Ticket de Soporte",
+      "type": "Tipo de Ticket",
+      "typePlaceholder": "Selecciona el tipo",
+      "vehicle": "Vehículo",
+      "vehiclePlaceholder": "Selecciona un vehículo",
+      "priority": "Prioridad",
+      "priorityPlaceholder": "Selecciona la prioridad",
+      "subject": "Asunto",
+      "subjectPlaceholder": "Describe brevemente el problema",
+      "description": "Descripción",
+      "descriptionPlaceholder": "Proporciona detalles sobre el problema",
+      "estimatedCost": "Costo Estimado (S/)",
+      "estimatedCostPlaceholder": "0.00",
+      "attachments": "Archivos Adjuntos",
+      "attachmentsHelp": "Puedes adjuntar fotos o documentos (máx. 5MB)"
+    },
     "submitTicket": "Enviar Ticket",
-    "totalTickets": "Total de Tickets",
-    "openTickets": "Tickets Abiertos",
-    "damageReports": "Reportes de Daños",
-    "closedTickets": "Tickets Cerrados",
-    "filterByStatus": "Filtrar por Estado",
-    "allStatuses": "Todos los estados",
-    "filterByType": "Filtrar por Tipo",
-    "allTypes": "Todos los tipos",
-    "noTicketsFound": "No se encontraron tickets",
-    "proceedToPayment": "Proceder al Pago",
-    "closeTicket": "Cerrar Ticket",
-    "updateTicket": "Actualizar Ticket",
-    "actions": "Acciones",
-    "resolutionNotes": "Notas de Resolución",
-    "resolutionNotesPlaceholder": "Escribe las notas de resolución...",
-    "closeTicketConfirm": "¿Estás seguro de que deseas cerrar este ticket?",
+    "estimatedCost": "Costo Estimado",
+    "status": "Estado",
+    "priority": "Prioridad",
+    "createdAt": "Creado el",
     "resolvedAt": "Resuelto el",
     "ticketCreatedSuccess": "Ticket creado exitosamente",
     "ticketCreatedError": "Error al crear el ticket",
@@ -801,11 +719,114 @@
       "urgent": "Urgente"
     }
   },
+  "notifications": {
+    "title": "Notificaciones",
+    "markAllRead": "Marcar todas leídas",
+    "noNotifications": "Sin notificaciones",
+    "noNotificationsMessage": "Cuando tengas actividad, aparecerá aquí",
+    "filters": {
+      "all": "Todas",
+      "unread": "No leídas",
+      "rentals": "Alquileres",
+      "payments": "Pagos",
+      "system": "Sistema"
+    },
+    "loading": "Cargando notificaciones...",
+    "emptyFilter": "No hay notificaciones en esta categoría",
+    "tryOtherFilter": "Prueba con otro filtro",
+    "new": "nuevas"
+  },
+  "shared": {
+    "header": {
+      "renter": {
+        "title": "Descubre tu próxima aventura"
+      },
+      "owner": {
+        "title": "Gestiona tu flota"
+      }
+    },
+    "footer": {
+      "profile": "Perfil",
+      "dashboard": "Inicio",
+      "explore": "Explorar",
+      "favorites": "Favoritos"
+    },
+    "pageNotFound": {
+      "title": "404",
+      "subtitle": "Página No Encontrada",
+      "message": "Lo sentimos, la página que buscas no existe",
+      "backHome": "Volver al Inicio",
+      "viewVehicles": "Ver Vehículos",
+      "needHelp": "¿Necesitas ayuda?",
+      "contactUs": "Contáctanos"
+    },
+    "comingSoon": {
+      "title": "Próximamente",
+      "message": "Esta función está en desarrollo",
+      "workingOn": "Estamos trabajando para ofrecerte la mejor experiencia",
+      "backHome": "Volver al Inicio",
+      "goBack": "Regresar"
+    },
+    "dashboard": {
+      "renter": {
+        "welcome": "Bienvenido, {name}",
+        "summary": "Gestiona tus alquileres y descubre nuevos vehículos",
+        "activeRentals": "Alquileres Activos",
+        "completedTrips": "Viajes Completados",
+        "totalSpent": "Total Gastado",
+        "favorites": "Favoritos",
+        "upcomingTrips": "Próximos Viajes",
+        "noUpcomingTrips": "No tienes viajes próximos",
+        "exploreVehicles": "Explorar Vehículos",
+        "myFavorites": "Mis Favoritos",
+        "noFavorites": "Aún no tienes vehículos favoritos",
+        "viewDetails": "Ver Detalles",
+        "total": "Total",
+        "status": {
+          "pending": "Pendiente",
+          "confirmed": "Confirmado",
+          "active": "Activo"
+        }
+      },
+      "owner": {
+        "welcome": "Bienvenido, {name}",
+        "summary": "Gestiona tus vehículos y solicitudes",
+        "publishedVehicles": "Vehículos Publicados",
+        "totalEarnings": "Ganancias Totales",
+        "activeRentals": "Alquileres Activos",
+        "pendingRequests": "Solicitudes Pendientes",
+        "pendingRequestsTitle": "Solicitudes Pendientes",
+        "noPendingRequests": "No tienes solicitudes pendientes",
+        "requestsWaiting": "Tienes {count} solicitudes esperando tu respuesta",
+        "reviewRequests": "Revisar Solicitudes",
+        "myVehicles": "Mis Vehículos",
+        "noVehicles": "No tienes vehículos publicados",
+        "addVehicle": "Agregar Vehículo",
+        "viewAll": "Ver Todos",
+        "monthlyEarnings": "Ganancias Mensuales",
+        "bestMonth": "Mejor Mes",
+        "totalEarned": "Total Ganado",
+        "averagePerMonth": "Promedio Mensual"
+      }
+    }
+  },
   "common": {
     "success": "Éxito",
     "error": "Error",
     "cancel": "Cancelar",
-    "back": "Volver"
+    "back": "Volver",
+    "save": "Guardar",
+    "delete": "Eliminar",
+    "edit": "Editar",
+    "close": "Cerrar",
+    "confirm": "Confirmar",
+    "loading": "Cargando...",
+    "search": "Buscar",
+    "filter": "Filtrar",
+    "sort": "Ordenar",
+    "yes": "Sí",
+    "no": "No",
+    "or": "o"
   },
   "user": {
     "owner": "Propietario",
